@@ -304,13 +304,15 @@ const helpMenu = [{
     click: () => {
         shell.openExternal('https://github.com/cstayyab/WALC/discussions/categories/feature-requests');
     }
-}, {
-    label: 'Vote for a Feature',
-    sublabel: 'Vote for existing features on FeatHub',
-    click: () => {
-        shell.openExternal("https://feathub.com/cstayyab/WALC");
-    }
-}, {
+}, 
+// {
+//     label: 'Vote for a Feature',
+//     sublabel: 'Vote for existing features on FeatHub',
+//     click: () => {
+//         shell.openExternal("https://feathub.com/cstayyab/WALC");
+//     }
+// }, 
+{
     label: 'separator',
     type: 'separator'
 }, {
