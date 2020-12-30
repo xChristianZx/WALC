@@ -307,6 +307,7 @@ const helpMenu = [{
 }, {
     label: 'Vote for a Feature',
     sublabel: 'Vote for existing features on FeatHub',
+    visible: false,
     click: () => {
         shell.openExternal("https://feathub.com/cstayyab/WALC");
     }
